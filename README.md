@@ -1,124 +1,170 @@
 # How Moms Use AI  
-**Patterns, Pain Points, and Personas from Real-World Data**
+### Behavioral Segmentation & Persona Analysis from Real User Feedback
 
-## Overview
-This project explores how moms actually use (and avoid) AI in their day-to-day lives. Using real qualitative feedback, I analyzed usage patterns, attitudes, and needs to understand where AI tools provide value, where they fall short, and how they could be improved.
+## Project Overview
+AI tools are rapidly becoming part of everyday life, but adoption is not equal across users. This project explores how mothers are engaging with AI in practical, real-world settings—where it helps, where it creates friction, and what influences long-term adoption.
 
-Rather than focusing on model performance alone, this project emphasizes **interpretability, context, and real-world application**.
+Using qualitative feedback from real participants, I analyzed usage behaviors, trust levels, and daily needs to uncover meaningful patterns. The result was a behavior-based persona framework designed to help teams better understand users and build more human-centered AI products.
 
----
-
-## Problem Statement
-AI tools are increasingly accessible, but adoption and usefulness vary widely. For many users—especially those juggling multiple roles—it’s not always clear when AI provides value versus when it adds friction.
-
-This project asks:
-- How are moms using AI today?
-- What behaviors and attitudes shape adoption?
-- What patterns emerge across different usage styles?
-- How can these insights inform more practical, human-centered tools?
+This project focuses on **applied analytics, interpretability, and user insight** rather than model complexity alone.
 
 ---
 
-## Data
-- Real qualitative feedback collected from moms
-- Free-text responses describing:
-  - daily AI usage
-  - attitudes toward AI
-  - perceived benefits and concerns
-- Data was unstructured, inconsistent, and context-heavy, reflecting real-world conditions
+## Business Problem
+Many AI products are built around technical capability instead of real user behavior. For busy users managing work, parenting, schedules, and household responsibilities, usefulness depends on context, simplicity, and trust.
+
+This project was designed to answer:
+
+- How are moms currently using AI tools?
+- What barriers prevent adoption?
+- Which behaviors signal confidence, skepticism, or practical need?
+- How can user patterns inform better product design and messaging?
 
 ---
 
-## Approach
-1. Cleaned and normalized free-text responses  
-2. Identified recurring themes and behaviors  
-3. Grouped similar usage patterns  
-4. Translated patterns into clear, behavior-based personas  
+## Dataset
+Real qualitative survey responses collected from mothers describing:
 
-The focus was on **clarity and usability**, not over-engineering or black-box modeling.
+- Daily AI usage habits
+- Attitudes toward AI
+- Perceived benefits
+- Concerns and hesitations
+- Situational needs and routines
 
----
-
-## Methods & Tools
-- Python (Pandas, NumPy)
-- Jupyter Notebooks
-- Qualitative data cleaning
-- Lightweight NLP techniques
-- Manual validation for interpretability
+The data was unstructured, inconsistent, and context-heavy—closely reflecting real-world customer feedback datasets.
 
 ---
 
-## Key Findings
-- AI usage varied significantly by trust, confidence, and perceived relevance
-- Common use cases included organization, planning, and school support
-- Some participants avoided AI entirely due to:
-  - overwhelm
-  - lack of clarity
-  - trust or privacy concerns
-- Context mattered more than technical ability
+## Methodology
+
+### 1. Data Preparation
+- Cleaned free-text responses
+- Standardized inconsistent language
+- Removed duplicate or low-signal entries
+
+### 2. Pattern Discovery
+- Identified recurring themes
+- Tagged behaviors and sentiment indicators
+- Grouped similar usage styles
+
+### 3. Persona Development
+Translated recurring patterns into clear, behavior-based personas that represent how users interact with AI in everyday life.
+
+### 4. Validation
+Used manual review and logic checks to prioritize interpretability and realistic outputs.
+
+---
+
+## Tools & Technologies
+
+**Python • Pandas • NumPy • Jupyter Notebook • NLP Techniques • Data Cleaning • Qualitative Analysis**
+
+---
+
+## Key Insights
+
+### Adoption Depends More on Context Than Technical Skill
+Users were more likely to adopt AI when it solved immediate problems quickly.
+
+### Top Use Cases Included:
+- Organization and scheduling
+- Meal planning and routines
+- Homework and school support
+- Writing assistance
+- Brainstorming and decision support
+
+### Common Barriers Included:
+- Lack of trust
+- Privacy concerns
+- Feeling overwhelmed
+- Not knowing where to start
+- Low perceived relevance
+
+### Confidence Influenced Depth of Use
+Users with early success were more likely to expand AI usage into additional areas of life.
 
 ---
 
 ## Persona Framework
-The analysis resulted in **behavior-based personas** that represent distinct AI usage styles. These personas are not identities, but **patterns of interaction** shaped by confidence, trust, and daily context.
 
 ### The AI-Curious but Stuck
-Interested in AI and aware of its potential, but unsure how to use it effectively. This persona wants support but lacks clear entry points or guidance.
+Interested in AI but unsure how to begin. Needs guidance, examples, and low-friction onboarding.
 
-### “AI Isn’t for Me”
-Actively avoids AI due to skepticism, overwhelm, or lack of perceived relevance. Often associated with trust concerns and low perceived value.
+### AI Isn’t for Me
+Skeptical or disengaged. Does not currently see enough value to adopt.
 
 ### The AI-Curious Mama
-Explores AI in small, low-risk ways. Usage is experimental and inconsistent, with growing confidence over time.
+Uses AI occasionally for simple tasks. Confidence is growing through experimentation.
 
 ### The CEO Mom
-Uses AI strategically for productivity, planning, and decision-making. Highly confident and intentional in how AI is integrated into daily workflows.
+Uses AI strategically for planning, productivity, and decision-making.
 
 ### The Conscious Creator
-Uses AI selectively while considering ethical, creative, and trust-related factors. Adoption is thoughtful rather than automatic.
+Uses AI selectively while considering ethics, originality, and trust.
 
 ### The Organized Chaos Mama
-Relies on AI to manage mental load, routines, and household logistics. Usage is practical and support-driven rather than optimization-focused.
+Uses AI to reduce mental load and manage day-to-day household logistics.
 
 ### The Routine Queen
-Uses AI to maintain structure, schedules, and repeatable processes. Values consistency and predictability over exploration.
+Uses AI for structure, consistency, scheduling, and repeatable systems.
 
 ### The Study-and-Survive Mom
-Uses AI primarily for education support and survival-mode tasks like homework help. Adoption is driven by immediate needs and time constraints.
+Uses AI for school support, homework help, and time-saving survival tasks.
 
 ---
 
-## Why Personas
-Personas help translate abstract usage patterns into **clear, human-readable insights**. They make it easier to:
-- understand adoption barriers
-- identify design opportunities
-- communicate findings to non-technical audiences
+## Business Value
+
+This project demonstrates the ability to:
+
+- Convert messy qualitative data into structured insights
+- Identify customer adoption barriers
+- Build behavior-based user personas
+- Translate feedback into product opportunities
+- Communicate findings clearly to stakeholders
+- Apply AI analytics to real consumer behavior
+
+---
+
+## Outcomes
+
+- Analyzed real-world qualitative responses
+- Identified 8 distinct user behavior personas
+- Mapped trust and adoption barriers
+- Created segmentation framework for future targeting and product design
 
 ---
 
 ## Limitations
-- Sample size limits generalizability
-- Qualitative interpretation introduces subjectivity
-- Personas are exploratory, not definitive classifications
+
+- Sample size limits broad generalization
+- Qualitative interpretation includes subjectivity
+- Personas are exploratory models, not fixed identities
 
 ---
 
 ## Next Steps
-- Expand the dataset for broader representation
-- Apply deeper NLP modeling
-- Quantitatively validate persona groupings
-- Create visual dashboards for exploration
+
+- Expand dataset size and diversity
+- Add sentiment scoring and clustering models
+- Quantitatively validate persona groups
+- Build interactive dashboards
+- Compare adoption patterns across demographics
 
 ---
 
 ## Project Walkthrough
-An optional presentation summarizing the approach, patterns, and insights is available here:  
-📊 *[[link to slides](https://www.canva.com/design/DAG89D2Xa6Y/IaWOx2B9bSpqVP443emQbA/view?utm_content=DAG89D2Xa6Y&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h48cc704b97)]*
+
+Presentation Summary:  
+📊 https://www.canva.com/design/DAG89D2Xa6Y/IaWOx2B9bSpqVP443emQbA/view
 
 ---
 
 ## Author
+
 **Kamri Williams**  
-Data professional focused on applied analytics, AI, and clear, human-centered insights.  
-🔗 [Portfolio Website](https://kamriwilliams.wixsite.com/kamriwilliams)
-🔗 [Github](https://github.com/kamriwilliams)
+Data Analyst | AI Enthusiast | Human-Centered Problem Solver
+
+Portfolio: https://kamriwilliams.wixsite.com/kamriwilliams  
+GitHub: https://github.com/kamriwilliams
+```
