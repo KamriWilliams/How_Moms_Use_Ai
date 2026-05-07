@@ -3,6 +3,8 @@
 
 ---
 
+![Persona Radar Chart](images/radar_chart.png)
+
 ## Project Overview
 
 AI tools are everywhere, but not everyone is using them the same way, or at all. I wanted to understand how moms specifically are engaging with AI in their real lives: what they use it for, what stops them, and what patterns show up across different types of users.
@@ -52,6 +54,8 @@ I chose Random Forest for several reasons. First, with only 52 rows, a single de
 The model was trained on a combined feature matrix of TF-IDF scores and scaled engineered features, with an 80/20 train/test split. It achieved 55% accuracy on held-out data, which is 4x better than the 12.5% random chance baseline for 8 classes. The biggest limitation was class imbalance. Underrepresented personas like AI-Curious Mama had too few training examples to learn from.
 
 ---
+
+![Persona Radar Chart](images/heat_plot.png)
 
 ## Tools & Technologies
 
